@@ -1,4 +1,7 @@
-﻿using Application.Interfaces;
+﻿using System.Threading;
+using System.Threading.Tasks;
+using Application.Interfaces;
+using Domain.Common;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,10 +18,23 @@ namespace Persistence.Contexts
              */
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
             _dateTime = dateTime;
-
         }
-        
         public DbSet<Cliente> clientes { get; set; }
-        
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+        {
+            foreach (var entry in ChangeTracker.Entries<AuditableBaseEntity>())
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entry.Entity.Created = _dateTime.NowUtc;
+                        break;
+                    case EntityState.Modified:
+                        entry.Entity.Created = _dateTime.NowUtc;
+                        break;
+                }
+            }
+            return base.SaveChangesAsync(cancellationToken);
+        }
     }
 }

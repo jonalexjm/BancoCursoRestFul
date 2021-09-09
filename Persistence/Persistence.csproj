@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="5.2.0" />
       <PackageReference Include="EntityCloner.Microsoft.EntityFrameworkCore" Version="5.0.0" />
       <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0-preview.7.21377.19" />
     </ItemGroup>
