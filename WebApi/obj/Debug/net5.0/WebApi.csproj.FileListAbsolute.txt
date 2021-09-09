@@ -27,3 +27,4 @@ C:\Users\Usuario\RiderProjects\BancoCursoRestFul\WebApi\obj\Debug\net5.0\WebApi.
 C:\Users\Usuario\RiderProjects\BancoCursoRestFul\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 C:\Users\Usuario\RiderProjects\BancoCursoRestFul\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Users\Usuario\RiderProjects\BancoCursoRestFul\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+C:\Users\Usuario\RiderProjects\BancoCursoRestFul\WebApi\bin\Debug\net5.0\MediatR.dll

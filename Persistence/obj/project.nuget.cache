@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mSk1yiHvr5x+ThiFEzimwrdFYQHOyfwvysCP6/cbHaJe4cIxWo2OuNW282vuCmnt/zuouOZgyfVPDuh8A7RE/g==",
+  "dgSpecHash": "dUZHp/rr0XmYIQyHdwz5xwuIdEuBE+KoX0IalVtgjB75tNRZ/srW7hmjf0kqWlr6EfOfI6T7mWvm5T7Fy+JBNw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

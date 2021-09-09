@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\Shared.csproj": {}
+    "C:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\Shared.csproj": {
+    "C:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "c:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
