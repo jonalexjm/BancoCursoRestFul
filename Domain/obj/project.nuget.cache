@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fymNp5qQRPqOpcZ/YqiG7SnKvc/8r8uNGPIp4+PMlQfpbzG9Ehpcsqzq+M4czZ7iYfL1uNr8r8IsttU2AsijBA==",
+  "dgSpecHash": "pUil1Izu1ADKxAv2ipeeh84otpbMeRyhnNK5ZfesPSNel0zHmYq91aZlO0g5J7NwXNjGe+y7OY3kpgUtO9vmqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\RiderProjects\\BancoCursoRestFul\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\jjimenezm\\Documents\\ProyectosJonalexjm\\Propios\\BancoCursoRESTFul\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

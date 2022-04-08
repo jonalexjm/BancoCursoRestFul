@@ -12,6 +12,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Persistence;
+using Shared;
+using WebApi.Extensions;
 
 namespace WebApi
 {
@@ -28,6 +31,8 @@ namespace WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplicationLayer();
+            services.AddSharedInfraestructure(Configuration);
+            services.AddPersistenceInfrastructure(Configuration);
             services.AddControllers();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "WebApi", Version = "v1"}); });
         }
@@ -47,6 +52,7 @@ namespace WebApi
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseErrorHandingMiddleware();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }

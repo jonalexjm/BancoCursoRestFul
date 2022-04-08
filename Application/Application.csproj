@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
@@ -11,16 +11,20 @@
       <PackageReference Include="FluentValidation" Version="10.3.3" />
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.3" />
       <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.6">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="DTOs" />
       <Folder Include="Features\Clientes\Commands\DeleteClienteCommand" />
       <Folder Include="Features\Clientes\Commands\UpdateClientCommand" />
       <Folder Include="Features\Clientes\Queries\GetAllClientes" />
       <Folder Include="Features\Clientes\Queries\GetClienteById" />
-      <Folder Include="Filters" />
-      <Folder Include="Mappings" />
+      <Folder Include="DTOs\" />
+      <Folder Include="Filters\" />
+      <Folder Include="Mappings\" />
     </ItemGroup>
 
 </Project>
