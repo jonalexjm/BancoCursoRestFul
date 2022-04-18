@@ -1,6 +1,7 @@
 ﻿using Application.Features.Clientes.Commands.CreateClienteCommand;
 using Application.Features.Clientes.Commands.DeleteClienteCommand;
 using Application.Features.Clientes.Commands.UpdateClientCommand;
+using Application.Features.Clientes.Queries.GetAllClientes;
 using Application.Features.Clientes.Queries.GetClienteById;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -16,6 +17,18 @@ namespace WebApi.Controllers.v1
         public async Task<IActionResult> Post(CreateClientCommand command)
         {
             return Ok(await Mediator.Send(command));
+        }
+
+        //GET api/<controller>
+        [HttpGet()]
+        public async Task<IActionResult> Get([FromQuery] GetAllClientesParameters filter)
+        {
+            return Ok(await Mediator.Send(new GetAllClientesQuery 
+            { PageNumber = filter.PageNumber, 
+              PageSize = filter.PageSize,
+              Nombre = filter.Nombre,
+              Apellido = filter.Apellido
+            }));
         }
 
         //GET api/<controller>
