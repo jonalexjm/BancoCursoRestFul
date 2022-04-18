@@ -36,6 +36,7 @@
           "Application": "1.0.0",
           "Domain": "1.0.0",
           "MediatR": "9.0.0",
+          "Microsoft.AspNetCore.Mvc.Versioning": "5.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.6",
           "Persistence": "1.0.0",
           "Shared": "1.0.0",
@@ -452,6 +453,17 @@
         },
         "compile": {
           "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Versioning/5.0.0": {
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.7710.5690"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {},
@@ -1574,6 +1586,7 @@
           "Ardalis.Specification": "5.2.0",
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
+          "Domain": "1.0.0",
           "FluentValidation": "10.3.3",
           "FluentValidation.DependencyInjectionExtensions": "10.3.3",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"
@@ -3342,6 +3355,13 @@
       "sha512": "sha512-msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
       "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
       "hashPath": "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mN9IARvNpHMBD2/oGmp5Bxp1Dg45Hfcp+LWaAyTtL2HisWLMOIcf0Ox1qW9IvCvdbHM+2A9dWEInhiqBsNxsJA==",
+      "path": "microsoft.aspnetcore.mvc.versioning/5.0.0",
+      "hashPath": "microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",

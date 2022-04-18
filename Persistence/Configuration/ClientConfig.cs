@@ -31,7 +31,7 @@ namespace Persistence.Configuration
                    .IsRequired();
 
             builder.Property(p => p.Email)
-                    .HasMaxLength(9);
+                    .HasMaxLength(100);
 
 
             builder.Property(p => p.Direccion)

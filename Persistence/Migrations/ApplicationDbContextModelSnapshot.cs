@@ -47,8 +47,8 @@ namespace Persistence.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
-                        .HasMaxLength(9)
-                        .HasColumnType("nvarchar(9)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<DateTime>("FechaNacimiento")
                         .HasColumnType("datetime2");

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tqNmF2sHNszFAh5gme0WZT2J2zP2Zr8LNgl1rrLSca5O4SNh5shuqtNKvmTvfWosLyR7xRPjF0yaeClAiYL7OQ==",
+  "dgSpecHash": "WeTk7bHl79ttXtfSh410QnU0N43tImKLlBSVtjQoE/cvKZIWZLZYR5d4OvenYuSkBrM1Wbs/BrylI3zl+7xdfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jjimenezm\\Documents\\ProyectosJonalexjm\\Propios\\BancoCursoRESTFul\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\jjimenezm\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jjimenezm\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\jjimenezm\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\jjimenezm\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\jjimenezm\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\jjimenezm\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\jjimenezm\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

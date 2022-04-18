@@ -17,7 +17,7 @@ namespace Persistence.Migrations
                     Apellido = table.Column<string>(type: "nvarchar(80)", maxLength: 80, nullable: false),
                     FechaNacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Telefono = table.Column<string>(type: "nvarchar(9)", maxLength: 9, nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(9)", maxLength: 9, nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
                     Direccion = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Edad = table.Column<int>(type: "int", nullable: false),
                     CreateBy = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),

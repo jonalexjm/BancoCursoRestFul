@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
@@ -24,7 +24,10 @@
       <Folder Include="Features\Clientes\Queries\GetClienteById" />
       <Folder Include="DTOs\" />
       <Folder Include="Filters\" />
-      <Folder Include="Mappings\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Domain\Domain.csproj" />
     </ItemGroup>
 
 </Project>

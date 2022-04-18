@@ -30,7 +30,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jjimenezm\\Documents\\ProyectosJonalexjm\\Propios\\BancoCursoRESTFul\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\jjimenezm\\Documents\\ProyectosJonalexjm\\Propios\\BancoCursoRESTFul\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

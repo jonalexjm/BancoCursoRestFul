@@ -30,7 +30,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jjimenezm\\Documents\\ProyectosJonalexjm\\Propios\\BancoCursoRESTFul\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\jjimenezm\\Documents\\ProyectosJonalexjm\\Propios\\BancoCursoRESTFul\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -354,6 +358,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
