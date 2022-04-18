@@ -19,8 +19,13 @@ namespace Persistence
             #region Repositories
             //estas es una matricula generica
             services.AddTransient(typeof(IRepositoryAsync<>), typeof(MyRepositoryAsync<>));
+            #endregion
 
-
+            #region Caching
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = configuration.GetValue<string>("Caching:RedisConnection");
+            });
             #endregion
         }
     }
