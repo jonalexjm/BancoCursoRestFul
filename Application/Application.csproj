@@ -19,8 +19,6 @@
 
     <ItemGroup>
       <Folder Include="Features\Clientes\Queries\GetAllClientes" />
-      <Folder Include="Features\Clientes\Queries\GetClienteById" />
-      <Folder Include="DTOs\" />
       <Folder Include="Filters\" />
     </ItemGroup>
 
