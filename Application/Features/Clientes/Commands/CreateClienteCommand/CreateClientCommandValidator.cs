@@ -15,6 +15,7 @@ namespace Application.Features.Clientes.Commands.CreateClienteCommand
                   .NotEmpty().WithMessage("{PropertyName} no puede ser vacio")
                   .MaximumLength(80).WithMessage("{PropertyName} no debe exceder de {MaxLength} caracteres");
 
+
             RuleFor(p => p.Apellido)
                   .NotEmpty().WithMessage("{PropertyName} no puede ser vacio")
                   .MaximumLength(80).WithMessage("{PropertyName} no debe exceder de {MaxLength} caracteres");

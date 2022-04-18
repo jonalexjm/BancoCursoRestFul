@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
@@ -11,9 +12,9 @@ namespace Application.Behaviours
     {
         private readonly IEnumerable<IValidator<TRequest>> _validator;
 
-        public ValidationBehavior(IEnumerable<IValidator<TRequest>> _validator)
+        public ValidationBehavior(IEnumerable<IValidator<TRequest>> validator)
         {
-            _validator = this._validator;
+            _validator = validator;
         }
         public  async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
         {
@@ -25,7 +26,7 @@ namespace Application.Behaviours
                 var failures = validationResults.SelectMany(r => r.Errors).Where(f => f != null).ToList();
 
                 if (failures.Count != 0)
-                    throw new ValidationException(failures);
+                    throw new Exceptions.ValidationExceptions(failures);
             }
 
             return await next();
